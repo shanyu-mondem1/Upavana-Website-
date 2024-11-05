@@ -1,0 +1,160 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Hero Section */
+.weather-hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 50px;
+    background-color: #e0f7df;
+}
+
+.weather-hero .hero-text h1 {
+    font-size: 3rem;
+    color: #006400;
+}
+
+.weather-hero .hero-text p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.weather-hero .cta-button {
+    background-color: #32CD32;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.weather-hero .cta-button:hover {
+    background-color: #228B22;
+}
+
+.weather-hero .hero-image img {
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Weather Information Section */
+.weather-info {
+    padding: 50px;
+    background-color: #f4f4f9;
+    text-align: center;
+}
+
+.weather-info h2 {
+    font-size: 2.5rem;
+    color: #006400;
+    margin-bottom: 30px;
+}
+
+.weather-details {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.detail-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 180px;
+    text-align: center;
+}
+
+.detail-card h3 {
+    color: #006400;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.detail-card p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* Forecast Section */
+.forecast {
+    padding: 50px;
+    text-align: center;
+    background-color: #e0f7df;
+}
+
+.forecast h2 {
+    color: #006400;
+    font-size: 2.2rem;
+    margin-bottom: 30px;
+}
+
+.forecast-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.forecast-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 160px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.forecast-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.forecast-card h3 {
+    color: #006400;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.forecast-card p {
+    color: #555;
+}
+
+.forecast-card img {
+    width: 50px;
+    height: 50px;
+    margin: 10px 0;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.footer-content div {
+    width: 30%;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 0.9em;
+}

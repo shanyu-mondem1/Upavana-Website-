@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Identification | Upavana</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles_plant_identification.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="upavana-logo.png" alt="Upavana Logo"></a>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="home.html" class="nav-button">Home</a></li>
+                <li><a href="features.html" class="nav-button">Features</a></li>
+                <li><a href="services.html" class="nav-button">Services</a></li>
+                <li><a href="community.html" class="nav-button">Community</a></li>
+                <li><a href="personalization.html" class="nav-button">Personalization</a></li>
+            </ul>
+        </nav>
+        <div class="profile-icon">
+            <a href="user-details.html">
+                <img src="profile-icon.png" alt="User Profile">
+            </a>
+        </div>
+    </header>
+
+    <!-- Plant Identification Hero Section -->
+    <section class="plant-identification-hero">
+        <div class="hero-text">
+            <h1>Identify Your Plants with Ease</h1>
+            <p>Upload a photo and let Upavana help you identify plant species and provide detailed care information.</p>
+            <a href="#upload-section" class="cta-button">Get Started</a>
+        </div>
+        <div class="hero-image">
+            <img src="plant-identification-hero.jpg" alt="Plant Identification Image">
+        </div>
+    </section>
+
+    <!-- Plant Identification Upload Section -->
+    <section id="upload-section" class="upload-section">
+        <h2>Upload a Plant Image</h2>
+        <p>Simply upload a clear image of the plant, and Upavana will analyze and identify it for you, providing care tips and species details.</p>
+        <form class="upload-form" action="identify-plant.html" method="POST" enctype="multipart/form-data">
+            <input type="file" id="plant-image" name="plant-image" accept="image/*" required>
+            <button type="submit" class="upload-button">Identify Plant</button>
+        </form>
+    </section>
+
+    <!-- Identification Details Section -->
+    <section class="identification-details">
+        <h2>Plant Information</h2>
+        <p>Upavana provides detailed information on plant species, including scientific names, care instructions, sunlight, water needs, and common issues. See examples of what we can identify:</p>
+        <div class="examples">
+            <div class="example-card">
+                <img src="example-plant1.jpg" alt="Example Plant 1">
+                <h3>Fiddle Leaf Fig</h3>
+                <p>Light: Bright, indirect sunlight<br>Water: Once a week<br>Care: Avoid direct sunlight and overwatering.</p>
+            </div>
+            <div class="example-card">
+                <img src="example-plant2.jpg" alt="Example Plant 2">
+                <h3>Monstera Deliciosa</h3>
+                <p>Light: Medium to bright indirect light<br>Water: Every 1-2 weeks<br>Care: Humidity-friendly and easy to maintain.</p>
+            </div>
+            <div class="example-card">
+                <img src="example-plant3.jpg" alt="Example Plant 3">
+                <h3>Snake Plant</h3>
+                <p>Light: Low to bright indirect light<br>Water: Every 2-3 weeks<br>Care: Very low maintenance; perfect for beginners.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-content">
+            <div class="about-us">
+                <h3>About Upavana</h3>
+                <p>Your trusted gardening companion providing smart solutions for plant care and expert services.</p>
+            </div>
+            <div class="contact">
+                <h3>Contact Us</h3>
+                <p>Email: support@upavana.com</p>
+                <p>Phone: 123-456-7890</p>
+            </div>
+            <div class="newsletter">
+                <h3>Join Our Newsletter</h3>
+                <form>
+                    <input type="email" placeholder="Enter your email">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Upavana. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="scripts.js"></script>
+</body>
+
+</html>

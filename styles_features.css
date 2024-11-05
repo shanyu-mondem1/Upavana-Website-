@@ -1,0 +1,135 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+h2 {
+    color: #2c3e50;
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 30px; /* Increased padding for a larger navbar */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 160px; /* Increased logo size */
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px; /* Added padding to make links look like buttons */
+    background-color: #32CD32; /* Changed button background to green */
+    border-radius: 5px; /* Rounded corners for buttons */
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    background-color: #32CD32; /* Hover effect */
+}
+
+.navbar .active {
+    font-weight: bold;
+    background-color: #228B22;
+
+}
+
+.profile-icon img {
+    height: 40px;
+}
+
+/* Features Section */
+.features {
+    padding: 20px;
+}
+
+.feature-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 250px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.card h3 {
+    margin: 10px 0;
+    color: #2980b9;
+}
+
+.card p {
+    padding: 0 10px 10px;
+    color: #7f8c8d;
+}
+
+.feature-button {
+    background-color: #2980b9;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.feature-button:hover {
+    background-color: #3498db;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-content div {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+}

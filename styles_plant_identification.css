@@ -1,0 +1,171 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Hero Section */
+.plant-identification-hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 50px;
+    background-color: #e0f7df;
+}
+
+.plant-identification-hero .hero-text h1 {
+    font-size: 3rem;
+    color: #006400;
+}
+
+.plant-identification-hero .hero-text p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.plant-identification-hero .cta-button {
+    background-color: #32CD32;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.plant-identification-hero .cta-button:hover {
+    background-color: #228B22;
+}
+
+.plant-identification-hero .hero-image img {
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Upload Section */
+.upload-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #f4f4f9;
+}
+
+.upload-section h2 {
+    font-size: 2.5rem;
+    color: #006400;
+    margin-bottom: 20px;
+}
+
+.upload-section p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.upload-form {
+    display: inline-block;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.upload-form input[type="file"] {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.upload-button {
+    background-color: #32CD32;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.upload-button:hover {
+    background-color: #228B22;
+}
+
+/* Identification Details Section */
+.identification-details {
+    padding: 50px;
+    text-align: center;
+}
+
+.identification-details h2 {
+    color: #006400;
+    font-size: 2.2rem;
+    margin-bottom: 30px;
+}
+
+.identification-details p {
+    color: #555;
+    margin-bottom: 40px;
+}
+
+.examples {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.example-card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 250px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.example-card img {
+    width: 100%;
+    height: 150px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.example-card h3 {
+    color: #006400;
+    margin: 15px 0 10px;
+}
+
+.example-card p {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.footer-content div {
+    width: 30%;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 0.9em;
+}

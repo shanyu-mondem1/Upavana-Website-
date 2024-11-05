@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart | Upavana</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles_cart.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="upavana-logo.png" alt="Upavana Logo"></a>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="home.html" class="nav-button">Home</a></li>
+                <li><a href="features.html" class="nav-button">Features</a></li>
+                <li><a href="services.html" class="nav-button">Services</a></li>
+                <li><a href="community.html" class="nav-button">Community</a></li>
+                <li><a href="personalization.html" class="nav-button">Personalization</a></li>
+            </ul>
+        </nav>
+        <div class="profile-icon">
+            <a href="user-details.html">
+                <img src="profile-icon.png" alt="User Profile">
+            </a>
+        </div>
+    </header>
+
+    <!-- Cart Items Section -->
+    <section class="cart-items">
+        <h1>Shopping Cart</h1>
+
+        <!-- Item List -->
+        <div class="cart-item-list">
+            <div class="cart-item">
+                <img src="Pruning_Shears.png" alt="Product Image" class="item-image">
+                <div class="item-details">
+                    <h2>Pruning Shears</h2>
+                    <p>Size: Medium</p>
+                    <p>Color: Green</p>
+                </div>
+                <div class="item-quantity">
+                    <button class="decrease-quantity">-</button>
+                    <input type="number" value="1" class="quantity-input" min="1">
+                    <button class="increase-quantity">+</button>
+                </div>
+                <div class="item-price">
+                    <p>₹499.00</p>
+                </div>
+                <button class="remove-item">Remove</button>
+            </div>
+
+            <!-- Additional items can be duplicated here with different details -->
+
+        </div>
+    </section>
+
+    <!-- Pricing Summary Section -->
+<section class="pricing-summary">
+    <h2>Pricing Summary</h2>
+    <div class="summary-item">
+        <p>Subtotal</p>
+        <p class="summary-subtotal">₹0.00</p>
+    </div>
+    <div class="summary-item">
+        <p>Discount</p>
+        <p class="summary-discount">- ₹0.00</p>
+    </div>
+    <div class="summary-item">
+        <p>Tax</p>
+        <p class="summary-tax">₹0.00</p>
+    </div>
+    <div class="summary-item">
+        <p>Shipping</p>
+        <p class="summary-shipping">₹50.00</p>
+    </div>
+    <div class="total-cost">
+        <p>Total</p>
+        <p class="summary-total">₹0.00</p>
+    </div>
+    <div class="cart-actions">
+        <a href="Payment_page.html" class="nav-button active">Proceed to Payment</a>
+        <a href="gardener-tools.html" class="nav-button active">Continue Shopping</a>
+    </div>
+</section>
+
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-content">
+            <div class="about-us">
+                <h3>About Upavana</h3>
+                <p>Your trusted gardening companion providing smart solutions for plant care and expert services.</p>
+            </div>
+            <div class="contact">
+                <h3>Contact Us</h3>
+                <p>Email: support@upavana.com</p>
+                <p>Phone: 123-456-7890</p>
+            </div>
+            <div class="newsletter">
+                <h3>Join Our Newsletter</h3>
+                <form>
+                    <input type="email" placeholder="Enter your email">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Upavana. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="scripts.js"></script>
+
+</body>
+</html>

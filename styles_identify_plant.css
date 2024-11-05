@@ -1,0 +1,133 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Identification Result Section */
+.identification-result {
+    padding: 60px 50px;
+    text-align: center;
+    background-color: #f4f4f9;
+}
+
+.identification-result h1 {
+    font-size: 2.5rem;
+    color: #006400;
+    margin-bottom: 30px;
+}
+
+.result-details {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.plant-image img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.plant-info {
+    max-width: 400px;
+    text-align: left;
+}
+
+.plant-info h2 {
+    color: #006400;
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+}
+
+.plant-info p {
+    color: #555;
+    font-size: 1rem;
+    margin: 8px 0;
+}
+
+.plant-info p strong {
+    color: #333;
+}
+
+/* Similar Plants Section */
+.similar-plants {
+    padding: 50px;
+    text-align: center;
+    background-color: #e0f7df;
+}
+
+.similar-plants h2 {
+    font-size: 2.2rem;
+    color: #006400;
+    margin-bottom: 30px;
+}
+
+.similar-plant-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 220px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.card h3 {
+    color: #006400;
+    margin: 15px 0 10px;
+}
+
+.card p {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.footer-content div {
+    width: 30%;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 0.9em;
+}

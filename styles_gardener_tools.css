@@ -1,0 +1,179 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Hero Section */
+.gardener-tools-hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 50px;
+    background-color: #e0f7df;
+}
+
+.gardener-tools-hero .hero-text h1 {
+    font-size: 3rem;
+    color: #006400;
+}
+
+.gardener-tools-hero .hero-text p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.gardener-tools-hero .cta-button {
+    background-color: #32CD32;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.gardener-tools-hero .cta-button:hover {
+    background-color: #228B22;
+}
+
+.gardener-tools-hero .hero-image img {
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Tools Section */
+.tools-section {
+    padding: 50px;
+    background-color: #f4f4f9;
+    text-align: center;
+}
+
+.tools-section h2 {
+    font-size: 2.5rem;
+    color: #006400;
+    margin-bottom: 30px;
+}
+
+.tool-cards {
+    display: flex;
+    flex-direction: column; /* Changed layout to vertical */
+    gap: 20px;
+    align-items: center;
+}
+
+.tool-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.tool-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.tool-card img {
+    width: 70%;
+    height: 350px;
+    border-radius: 20px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.tool-card h3 {
+    color: #006400;
+    margin: 10px 0;
+}
+
+.tool-card p {
+    color: #555;
+    font-size: 0.9rem;
+}
+
+.add-to-cart {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #32CD32;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.add-to-cart:hover {
+    background-color: #228B22;
+}
+
+/* Page Description Section */
+.page-description {
+    padding: 40px;
+    background-color: #e0f7df;
+    text-align: center;
+}
+
+.page-description h2 {
+    font-size: 2.2rem;
+    color: #006400;
+    margin-bottom: 20px;
+}
+
+.page-description p {
+    font-size: 1rem;
+    color: #555;
+    max-width: 700px;
+    margin: 0 auto;
+}
+/* Cart Confirmation Message */
+.cart-confirmation {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #32CD32;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+    z-index: 1000;
+    animation: fadeInOut 3s ease;
+}
+
+@keyframes fadeInOut {
+    0% { opacity: 0; transform: translateY(10px); }
+    10%, 90% { opacity: 1; transform: translateY(0); }
+    100% { opacity: 0; transform: translateY(10px); }
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.footer-content div {
+    width: 30%;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 0.9em;
+}
